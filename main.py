@@ -12,7 +12,7 @@ from pyspark.sql.types import (
     DateType,
     TimestampType,
 )
-from utils.sparkboost import SBFrame
+from sparkboost import SBFrame
 
 # settings
 FILE_PATH = "flights"
